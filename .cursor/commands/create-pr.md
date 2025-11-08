@@ -18,6 +18,7 @@ reviewers.
     - Add screenshots if UI changes
 3. **Set up PR**
     - Create PR with descriptive title
+    - Use conventional commit format for title
     - Add appropriate labels
     - Assign reviewers
     - Link related issues
