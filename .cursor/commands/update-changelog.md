@@ -19,13 +19,13 @@ Analyze the git log (@git) for all commits since the last release tag and perfor
    - Prepend a new version section following "Keep a Changelog" (v1.1.0).
    - Use the new version number and today's date (2026-02-01).
    - Categorize changes into: **Added**, **Changed**, **Fixed**, **Security**, **Deprecated**, and **Removed**.
-   - Synthesize multiple related commits into clear, professional bullet points.
+   - Synthesize multiple related commits into short succinct bullet points.
 
 4. **Review**:
    - Ensure the version in `package.json` and `CHANGELOG.md` match exactly.
 
 ## Response Checklist
 - [ ] Updated CHANGELOG.md
-- [ ] Updated version in package.json or equivalant files
+- [ ] Updated the `"version"` field in `@package.json` or equivalant files
 - [ ] Verified new version and date are accurate
 - [ ] Verified format in new version section is consistent with the rest
